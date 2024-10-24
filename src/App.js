@@ -11,14 +11,14 @@ export default function App() {
           href="https://www.linkedin.com/in/olga-slahota-485359162"
           target="_blank"
         >
-          Olga Slahot
+          Olga Slahota
         </a>{" "}
         and is open-sourced on{" "}
         <a
           href="https://github.com/alja1313/react-weather-application"
           target="_blank"
         >
-          GitHub
+          GitHub 🌡
         </a>
       </footer>
     </div>
