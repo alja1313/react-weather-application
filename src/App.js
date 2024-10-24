@@ -11,7 +11,7 @@ export default function App() {
           href="https://www.linkedin.com/in/olga-slahota-485359162"
           target="_blank"
         >
-          Olga Slahota
+          Olga Slahot
         </a>{" "}
         and is open-sourced on{" "}
         <a
