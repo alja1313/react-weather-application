@@ -1,51 +1,59 @@
+:root {
+  --primary-color: #05547c;
+  --secondary-color: #077bb6;
+}
+
 .Weather {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  border: 1px solid grey;
-  border-radius: 4px;
-  padding: 15px;
+  border: 1px solid #dadde1;
+  font-weight: 400;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
 }
 
-.Weather h1 {
-  color: black;
-  font-size: 24px;
-  font-weight: 100;
-  line-height: 28px;
-  margin: 20px 0 0 0;
+ul {
+  list-style-type: none;
 }
 
-.Weather ul {
+h1,
+h2,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+sup {
+  font-size: 12px !important;
+}
+
+.SearchButton {
+  background-color: var(--primary-color) !important;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.SearchButton:hover {
+  background-color: var(--secondary-color) !important;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.CityName {
+  font-size: 26px;
+  line-height: 1.25em;
+  font-weight: 300;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Current {
+  font-size: 18px;
+  line-height: 1em;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+}
+
+.icon {
+  max-width: 80px;
   margin: 0;
   padding: 0;
-}
-
-.Weather li {
-  color: black;
-  font-size: 16px;
-  font-weight: 100;
-  line-height: 19px;
-  list-style: none;
-}
-
-.Weather img {
-  display: inline-block;
-  height: 84px;
-  width: 84px;
-  margin-right: 10px;
-}
-
-.Weather .temperature {
-  color: blueviolet;
-  font-weight: bold;
-  font-weight: 400;
-  font-size: 64px;
-  font-weight: 64px;
-}
-
-.Weather .unit {
-  color: blueviolet;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-  top: -20px;
-  margin-left: 5px;
 }
