@@ -4,6 +4,7 @@ import axios from "axios";
 import "./Weather.css";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
+import WeatherForecast from "./WeatherForecast";
 import "./App.css";
 
 export default function Weather(props) {
@@ -83,6 +84,7 @@ export default function Weather(props) {
               <li>Wind: {weatherData.wind} km/h</li>
             </ul>
           </div>
+          <WeatherForecast />
         </div>
       </div>
     );
