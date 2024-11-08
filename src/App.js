@@ -1,16 +1,17 @@
 import React from "react";
 import Weather from "./Weather";
+import "./App.css";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="Odesa" />
+        <Weather defaultCity="Barcelona" />
         <footer>
           This project was coded by{" "}
           <a
             href="https://www.linkedin.com/in/olga-slahota-485359162"
-            target="_blank"
+            target="blank"
             rel="noreferrer"
           >
             Olga Slahota
@@ -18,7 +19,7 @@ export default function App() {
           and is open-sourced on{" "}
           <a
             href="https://github.com/alja1313/react-weather-application"
-            target="_blank"
+            target="blank"
             rel="noreferrer"
           >
             GitHub
@@ -36,3 +37,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
